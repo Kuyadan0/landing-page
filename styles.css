@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body{
+   background-color: rgb(0, 0, 0);
+   overflow: hidden;
+   
+}
+
+#particles-js{
+    background-color: rgb(0, 0, 0);
+    display: inline;
+    
+     
+}
+
+.name{
+    position: absolute;
+    margin: 272px 300px 120px 200px;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    
+}
+
+a{
+    margin: 9px 0px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.profile{
+    display: inline-block;
+    position: absolute;
+    padding: 0px 30px;
+    margin: 100px 40px 0 800px;
+}
+img{
+    border: 2px solid orange;
+    background-color: rgba(255, 166, 0, 0.377);
+}
+.profile img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.377);
+    background-color: rgba(255, 166, 0, 0.377);
+    cursor: pointer;
+}
+
+.name a:hover{
+    color: orange;
+
+}
+
+h1{
+    overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .10em;
+    animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+h1, p{
+    color: white;
+}
+
+
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+
+@keyframes introload {
+    from{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    
+}
+
